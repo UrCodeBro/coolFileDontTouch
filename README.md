@@ -1,2 +1,2 @@
-# Cool File, Don't Touch
-This is a cool file, please don't touch it.
+# Cool Files, Don't Touch
+These are some pretty cool files, please don't touch them.

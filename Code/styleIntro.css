@@ -24,6 +24,6 @@ p {
 	display: none;
 	font-size: 10px;
 }
-#Copyright {
+#Copyright:hover {
 	display: block;
 }

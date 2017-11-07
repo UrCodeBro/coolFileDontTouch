@@ -1,1 +1,21 @@
+<html>
+  <head>
+    <title>Oh No!</title>
+    <script type="text/javascript">
+		function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
+	}
 
+	async function myFunction() {
+		await sleep(5000);
+		window.location.assign("index.html");
+	}
+
+    </script>
+  </head>
+  <body onload="myFunction();">
+    <h1>Error. File Corrupted</h1>
+    <hr>
+    <p>Redirecting you back to home page</p>
+  </body>
+</html>

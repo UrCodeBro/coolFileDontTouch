@@ -11,5 +11,19 @@ body {
 	text-decoration: underline;
 }
 #Login {
-	margin: auto;
+	padding: 100px 0;
+	text-align: center;
+}
+a, a:visited {
+	color: inherit;
+}
+input {
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 25%;
+	padding: 15px 0;
+}
+input:focus {
+	background-color: #40E0D0;
+	color: white;
 }

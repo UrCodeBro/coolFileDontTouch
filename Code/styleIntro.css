@@ -1,22 +1,29 @@
-		#Header {
-			margin: auto;
-			position: sticky;
-			top: 0;
-			text-align: center;
-			word-spacing: 30px;
-			text-decoration: underline;
-		}
-		a, a:visited {
-			color: inherit;
-		}
-		body {
-		font-family: "Comic Sans MS", cursive;
-		background: linear-gradient(to bottom right, red, orange, yellow, green, blue, purple, violet);
-		}
-		#info {
-		margin: auto;
-		text-align: center;
-		}
-		p {
-		font-size: 20px;
-		}
+#Header {
+	margin: auto;
+	position: sticky;
+	top: 0;
+	text-align: center;
+	word-spacing: 30px;
+	text-decoration: underline;
+}
+a, a:visited {
+	color: inherit;
+}
+body {
+	font-family: "Comic Sans MS", cursive;
+	background: linear-gradient(to bottom right, red, orange, yellow, green, blue, purple, violet);
+}
+#info {
+	margin: auto;
+	text-align: center;
+}
+p {
+	font-size: 20px;
+}
+#Copyright {
+	display: none;
+	font-size: 10px;
+}
+#Copyright {
+	display: block;
+}

@@ -1,1 +1,4 @@
-
+body {
+	font-family: "Comic Sans MS", cursive;
+	background: linear-gradient(to bottom right, red, orange, yellow, green, blue, purple, violet);
+}

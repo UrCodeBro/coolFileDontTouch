@@ -22,7 +22,6 @@ async function myFunction() {
 	await sleep(500);
   document.getElementById("cant").display = "block";
 	document.getElementById("signOut").display = "block";
-	console.log(getElementById("cant").display);
 	await sleep(10000);
 	window.location.assign("home.html");
 }

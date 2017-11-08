@@ -2,3 +2,26 @@ body {
 	font-family: "Comic Sans MS", cursive;
 	background: linear-gradient(to bottom right, red, orange, yellow, green, blue, purple, violet);
 }
+#content {
+	display: none;
+}
+button {
+	border-radius: 5px;
+	background-color: #40E0D0;
+	border-style: none;
+	color: white;
+	padding: 10px 100px;
+	font-family: inherit;
+}
+a, a:visited {
+	color: inherit;
+	text-decoration: inherit;
+}
+#menu {
+	display: inline-block;
+	padding-top: 12.5%;
+	padding-bottom: 12.5%;
+}
+#menu:hover #content {
+	display: block;
+}

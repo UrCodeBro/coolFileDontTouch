@@ -3,7 +3,9 @@ body {
 	font-family: "Courier", monospace;
 	color: white;
 }
-
+#signOut {
+	text-align: center;
+}
 #cant {
 	color: white;
 	position: relative;

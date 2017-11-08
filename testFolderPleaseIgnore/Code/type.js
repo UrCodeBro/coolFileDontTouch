@@ -20,8 +20,8 @@ async function myFunction() {
 		};
 	};
 	await sleep(500);
-  document.getElementById("cant").display = "block";
-	document.getElementById("signOut").display = "block";
+  document.getElementById("cant").style.display = "block";
+	document.getElementById("signOut").style.display = "block";
 	await sleep(10000);
 	window.location.assign("home.html");
 }

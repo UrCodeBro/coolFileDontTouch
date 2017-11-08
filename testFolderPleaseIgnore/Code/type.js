@@ -16,12 +16,13 @@ async function myFunction() {
 		} else {
 		await sleep(500);
 		string = string.concat(info_array.slice(i, i +1));;
-		document.getElementById("type").value = string.join("");
+		document.getElementById("type").innerHTML = string.join("");
 		};
 	};
 	await sleep(500);
   document.getElementById("cant").display = "block";
 	document.getElementById("signOut").display = "block";
+	console.log(getElementById("cant").display);
 	await sleep(1000);
 	window.location.assign("home.html");
 }

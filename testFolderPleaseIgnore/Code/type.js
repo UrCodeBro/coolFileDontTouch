@@ -21,5 +21,6 @@ async function myFunction() {
 	};
 	await sleep(500);
   document.getElementById("cant").display = "block";
+	document.getElementById("signOut").display = "block";
 	window.location.assign("testFolderPleaseIgnore/home.html");
 }

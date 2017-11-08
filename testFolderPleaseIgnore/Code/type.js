@@ -21,7 +21,7 @@ async function myFunction() {
 	};
 	await sleep(500);
   document.getElementById("cant").style.display = "block";
-	document.getElementById("signOut").style.display = "block";
+	document.getElementById("signOut").style.display = "none";
 	await sleep(10000);
 	window.location.assign("home.html");
 }

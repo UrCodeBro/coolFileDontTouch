@@ -54,7 +54,7 @@ async function write(variable, elId) {
 	};
 }
 async function leave() {
-	window.location.assign("index.html");
+	window.location.assign("Next/index.html");
 }
 async function myFunction() {
 write(info_amount[0], id);

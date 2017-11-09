@@ -1,18 +1,14 @@
-var info = "Function signOut()";
-var info2 = "Executing signOut()";
+var info = "Function search()";
+var info2 = ". . .";
 var info3 = ". . .";
 var info4 = ". . .";
 var info5 = ". . .";
 var info6 = ". . .";
-var info7 = "WARNING! UNKNOWN ERROR!";
-var info8 = "ERROR! ABORTING signOut()";
-var info9 = "ERROR!";
-var info10 = "ERROR!";
-var info11 = "ERROR!";
-var info12 = "E̱̻͔̲̩̐̅̏ͥR̀R̡̫̬͓̱̀ͨ̀̽̏̎͛O̦̼͚̥̠͓̿ͬR̪̱̜͟!̊̈͊̈̏ͣͪ͞";
-var info13 = "E̖̜͍̰͎̝͖̥ͭ̌͒̇Ř̢̩̓͘ͅR͕̫̻̦̎̓͜͟Ỏ̫̼̰̫̟͕̤͗̕R̸̷̢̙̜̹̝͚͚͕̓̈́͐͋̓ͅ!̵̝̻̪̗͕̗͇͛́́ͮ̽͆ͥͅ";
-var info14 = "E̡͉̘̣͖̣̲̭͍̬̰ͨ̿̒̐̒ͯ̇R̵̶̨̨̟̮̣̲͆̿̋͒̑͊̓ͤͤ̊ͮͬ̿ͮ̒̑͘Ŗ̵̮͙͚̖̫̻̖̮͙̩̙͈̤̰̮̖̱͖̘͂̏ͩ̋ͨ̓ͨͮͯ̃̆̋͑͊̈́̑Ǫ̡̻͉͈̻ͨ̌̈́̿̈́͆͛ͥ̒͗͋͝R̸̢̛͈̙̞̹͔̤̜͈͖̮̺̹̦̺̙̪͙̾̽̔ͩ̃̀ͩ́̓̇ͥ͛̈͡!̨͚̹͈͕̮̟̝̻̪ͩͫ̉ͪ̎̿̽ͣ͐̓̈́͟͠";
-var info_amount = [info, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12, info13, info14];
+var info7 = "File Found";
+var info8 = "P@zzW0RD:";
+var info9 = "Terrence";
+var info10 = "Redirecting. . .";
+var info_amount = [info, info2, info3, info4, info5, info6, info7, info8, info9, info10];
 var string;
 var id = 'type';
 var j;
@@ -54,17 +50,28 @@ async function write(variable, elId) {
 	};
 }
 async function leave() {
-	await sleep(500);
-	document.getElementById("cant").style.display = "block";
-	document.getElementById("signOut").style.display = "none";
-	await sleep(1000);
-	window.location.assign("home.html");
+	window.location.assign("index.html");
 }
 async function myFunction() {
-	for (i = 0; i < info_amount.length; i++) {
-		write(info_amount[i], id);
-		await sleep(3600);
-	};
-	await sleep(500);
-	leave();
+write(info_amount[0], id);
+await sleep(3400);
+write(info_amount[1], id);
+await sleep(1000);
+write(info_amount[2], id);
+await sleep(1000);
+write(info_amount[3], id);
+await sleep(1000);
+write(info_amount[4], id);
+await sleep(1000);
+write(info_amount[5], id);
+await sleep(1000);
+write(info_amount[6], id);
+await sleep(2000);
+write(info_amount[7], id);
+await sleep(1800);
+write(info_amount[8], id);
+await sleep(2000);
+write(info_amount[9], id);
+await sleep(3700);
+leave();
 }

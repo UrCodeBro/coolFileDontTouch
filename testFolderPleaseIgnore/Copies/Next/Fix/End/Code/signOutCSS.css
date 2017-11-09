@@ -9,10 +9,21 @@ body {
 	left: 25%;
 	line-height: 0%;
 }
+#signOut2 {
+	position: absolute;
+	left: 25%;
+	line-height: 0%;
+	top: 45%;
+}
 #type {
 	color: green;
 }
-#f, #g, #h, #i, #j, #k, #l, #m {
+input {
+	border: none;
+	background-color: black;
+	color: white;
+}
+#f, #g, #h, #i, #j, #k, #l, #m, #n, #o, #p, #q, #r, #s {
 	color: red;
 }
 #cant {

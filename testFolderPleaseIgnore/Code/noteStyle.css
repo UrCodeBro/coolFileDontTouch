@@ -17,11 +17,31 @@ a, a:visited {
 	color: inherit;
 	text-decoration: inherit;
 }
+#Home {
+	text-decoration: underline;
+}
+#Header {
+	right: 5;
+	top: 0;
+	position: absolute;
+	color: white;
+}
 #menu {
 	display: inline-block;
-	padding-top: 12.5%;
-	padding-bottom: 12.5%;
+	margin: auto;
+	position: absolute;
 }
 #menu:hover #content {
 	display: block;
+}
+#Login {
+	margin: 100px auto;
+	text-align: center;
+	background-color: #40E0D0;
+	color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 50%;
+	padding: 15px 0;
+	font-family: "Courier", monospace;
 }

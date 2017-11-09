@@ -18,6 +18,8 @@ var info17 = "25%";
 var info18 = "50%";
 var info19 = "75%";
 var info20 = "100%";
+var info21 = "REINITIALIZING";
+var info22 = "WARNING! UNKNOWN OVERRIDE";
 var info_amount = [info, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12, info13, info14, info15, info16, info17, info18, info19, info20];
 var string;
 var id = 'type';
@@ -118,7 +120,12 @@ async function check() {
 	} else {
 	alert("What!? No, I won't let you ruin everyone's happy ending!");
 	document.getElementById("console").value = "Y";
+	await sleep(500);
 	document.getElementById("console").style.display = "none";
+	write(info21, id);
+	await sleep(2600);
+	write(info22, id);
+	await sleep(5000);	
 	myFunction2();
 	}
 	

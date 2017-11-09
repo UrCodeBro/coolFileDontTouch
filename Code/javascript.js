@@ -10,11 +10,11 @@ async function myFunction() {
 	document.getElementById("userName").focus();
 	for (i; i < username.length; i++) {
 		if (i < 1) {
-			await sleep(500);
+			await sleep(200);
 			string = username.slice(0,1);
 			document.getElementById("userName").value = string.join("");
 		} else {
-		await sleep(500);
+		await sleep(200);
 		string = string.concat(username.slice(i, i +1));;
 		document.getElementById("userName").value = string.join("");
 		};
@@ -24,11 +24,11 @@ async function myFunction() {
 	i = 0;
 	for (i; i < password.length; i++) {
 		if (i < 1) {
-			await sleep(500);
+			await sleep(200);
 			string = password.slice(0,1);
 			document.getElementById("passWord").value = string.join("");
 		} else {
-			await sleep(500);
+			await sleep(200);
 			string = string.concat(password.slice(i, i +1));;
 			document.getElementById("passWord").value = string.join("");
 		};

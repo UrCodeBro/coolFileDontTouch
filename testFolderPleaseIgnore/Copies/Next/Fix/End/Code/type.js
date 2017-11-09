@@ -4,7 +4,7 @@ var info3 = "ID: 561278";
 var info4 = "Privileges:";
 var info5 = "Database: Yes";
 var info6 = "Shutdown: Yes";
-var info7 = "Input (D) for Database Access and (S) for Shutdown protocol.";
+var info7 = "Input (D) for Database Access and (S) for Shutdown protocol. CASE SENSITIVE";
 var info_amount = [info, info2, info3, info4, info5, info6, info7];
 var string;
 var id = 'type';
@@ -64,7 +64,7 @@ await sleep(2600);
 write(info_amount[5], id);
 await sleep(2600);
 write(info_amount[6], id);
-await sleep(12000);
+await sleep(15000);
 write(info_amount[7], id);
 }
 async function check() {

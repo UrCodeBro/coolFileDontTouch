@@ -3,6 +3,7 @@ var password = ["1", "2", "3", "4", "5", "6"];
 var string;
 function sleep(ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));
+	//idea from: https://stackoverflow.com/questions/951021/what-is-the-javascript-version-of-sleep
 }
 async function myFunction() {
 	var i = 0;

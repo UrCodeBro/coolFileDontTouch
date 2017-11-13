@@ -39,5 +39,5 @@ function myFunction() {
 	sleep(1000);
 	document.getElementById("subMit").focus();
 	sleep(500);
-	window.location.assign("testFolderPleaseIgnore/home.html");
+	
 }

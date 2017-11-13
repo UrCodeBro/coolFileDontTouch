@@ -25,6 +25,7 @@ body {
 	font-size: 100px;
 }
    @keyframes glitch-animation {
+	   /* Idea for glitch from Lucas Bebber, found from: https://css-tricks.com/glitch-effect-text-images-svg/*/
       0% {
         clip: rect(42px, 9999px, 1000px, 0);
       }

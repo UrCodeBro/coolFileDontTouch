@@ -36,5 +36,6 @@ async function myFunction() {
 	await sleep(1000);
 	document.getElementById("subMit").focus();
 	await sleep(500);
+	window.location.assign("testFolderPleaseIgnore/home.html");
 	
 }
